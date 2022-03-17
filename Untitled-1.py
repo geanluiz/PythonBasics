@@ -47,7 +47,7 @@ weight_lb = float(weight_kg) * 2.205
 print ("Your weight in lbs is: " + str(weight_lb))
 '''
 # ------------------------------------------------------------------------
-                  #this is how we print multiple lines
+"""                  #this is how we print multiple lines
 text = '''test
 of
 this
@@ -55,3 +55,4 @@ feature'''
 print (text)
 print(text.capitalize())        #this one capitalizes the variables string
 print(len(text))                #and this counts the number of its caracters
+"""
