@@ -18,14 +18,14 @@ age = int(input("How old are you? "))
 if age >= 18:
     print ("Good to go!")
 elif age < 18:
-        print ("Sorry, you're too young... :(")
+    print ("Sorry, you're too young... :(")
 '''
 # ------------------------------------------------------------------------
 '''
 print (input("Press Enter to start your Log in"))
 prev_username = str(input("Choose an Username: "))
 import getpass
-prev_password = getpass.getpass("Enter a Password: ")            #getpass hides user password while setting it
+prev_password = getpass.getpass("Enter a Password: ")            #getpass hides user password while sets it
 print ("Please log in")
 login_username = str(input("Insert your Username: "))
 while login_username != prev_username:
@@ -41,11 +41,14 @@ else:
     print ("Username or Password incorrect. Please try again!")
 '''
 # ------------------------------------------------------------------------
-'''
-weight_kg = input("Insert your weight in kilograms: ")            #converts weight from kg to lb
-weight_lb = float(weight_kg) * 2.205
-print ("Your weight in lbs is: " + str(weight_lb))
-'''
+
+def weight_convertion():  #defines code below as a function
+    weight_kg = input("Insert your weight in kilograms: ")            #converts weight from kg to lb
+    weight_lb = float(weight_kg) * 2.205
+    print ("Your weight in lbs is: " + str(weight_lb))
+    
+weight_convertion()  #calls function defined above
+
 # ------------------------------------------------------------------------
 """                  #this is how we print multiple lines
 text = '''test
