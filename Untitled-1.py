@@ -41,11 +41,11 @@ else:
     print ("Username or Password incorrect. Please try again!")
 '''
 # ------------------------------------------------------------------------
-'''
+
 weight_kg = input("Insert your weight in kilograms: ")            #converts weight from kg to lb
 weight_lb = float(weight_kg) * 2.205
 print ("Your weight in lbs is: " + str(weight_lb))
-'''
+
 # ------------------------------------------------------------------------
 """                  #this is how we print multiple lines
 text = '''test
